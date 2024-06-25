@@ -1,0 +1,16 @@
+{
+  "name": "awel",
+  "private": true,
+  "workspaces": [
+    "pkgs/*",
+    "apps/*"
+  ],
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
