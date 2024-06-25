@@ -32,7 +32,7 @@ export function newApp() {
     });
   });
 
-  app.doc31("/openapi", (ctx) => ({
+  app.doc31("/openapi.json", (ctx) => ({
     openapi: "3.1.0",
     info: {
       title: "AW API",

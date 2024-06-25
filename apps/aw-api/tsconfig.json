@@ -6,6 +6,10 @@
     "types": [
       "@cloudflare/workers-types"
     ],
+    "baseUrl": "src",
+    "paths": {
+      "@pkg/*": ["pkg/*"]
+    },
     "jsxImportSource": "hono/jsx"
   },
 }
